@@ -1,0 +1,36 @@
+.intro {
+  text-align: center;
+}
+h1 {
+  color: #00b39b;
+}
+
+.intro div {
+  display: flex;
+  margin: 0% 20%;
+}
+
+#countries {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0% 20%;
+  justify-content: center;
+}
+.country {
+  margin: 20px;
+  border: 1px solid #88888813;
+}
+.country:hover {
+  box-shadow: 7px 7px 50px 10px #88888848;
+}
+.name {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  height: 30px;
+  margin-top: 15px;
+  background-color: #3d83df;
+  color: white;
+  border-radius: 5px;
+}
